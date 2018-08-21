@@ -5,7 +5,6 @@
  * DB connect
  */
 require_once('app/configs/main.php');
-require_once('app/configs/secret.php');
 require_once("vendor/autoload.php");
 
 $app = new \sae\app\App();
