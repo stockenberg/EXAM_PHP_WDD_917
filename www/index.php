@@ -4,6 +4,11 @@
  * Model
  * DB connect
  */
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+g
 require_once('app/configs/main.php');
 require_once('app/configs/secret.php');
 require_once("vendor/autoload.php");
